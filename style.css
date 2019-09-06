@@ -1,0 +1,67 @@
+body
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav#menu
+{
+    background-color: black;
+    position: fixed;
+    width: 100%
+   
+}
+
+nav#menu a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    text-transform: uppercase; 
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;   
+    font-size: 15xp;
+    display: inline-block;
+}
+
+nav#menu a:hover{
+    color: blue;
+    background-color: gray;
+
+}
+h1
+{
+margin: 0;
+}
+section#principal
+{
+background-image: url(fundo.jpg);
+text-align: center;
+height: 100vh;
+color: black;
+}
+div#conteudoprincipal
+{
+position: relative;
+top: 40%;
+}
+div#conteudoprincipal h1
+{
+font-size: 70px
+}
+div#conteudoprincipal h3
+{
+font-size: 30px;
+}
+a.btn
+{
+background-color: orange;
+padding: 10px;
+color: white;
+cursor: pointer;
+font-size: 15px;
+display: inline-block
+}
+.right{
+    float: right;
+}
